@@ -10,10 +10,10 @@ const Profile = () => {
         </h2>
         <div className="contents" data-aos="fade-up">
           <div className="profile-box">
-            <img src="/images/profile_1.png" alt="profile" />
+            <img src="./images/profile_1.png" alt="profile" />
           </div>
           <div className="profile-box">
-            <img src="/images/profile_2.png" alt="profile" />
+            <img src="./images/profile_2.png" alt="profile" />
           </div>
         </div>
       </div>

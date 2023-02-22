@@ -24,7 +24,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="project" />
+                  <img src="./images/sample.png" alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="project" />
+                  <img src="./images/sample.png" alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="project" />
+                  <img src="./images/sample.png" alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -102,7 +102,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="project" />
+                  <img src="./images/sample.png" alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -157,7 +157,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="portfolio" />
+                  <img src="./images/sample.png" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -167,7 +167,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="portfolio" />
+                  <img src="./images/sample.png" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -177,7 +177,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="portfolio" />
+                  <img src="./images/sample.png" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -187,7 +187,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="portfolio" />
+                  <img src="./images/sample.png" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -197,7 +197,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="portfolio" />
+                  <img src="./images/sample.png" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -207,7 +207,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="/images/sample.png" alt="portfolio" />
+                  <img src="./images/sample.png" alt="portfolio" />
                 </a>
               </SwiperSlide>
             </Swiper>
