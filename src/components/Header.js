@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 const Header = ({ setPage, setOpen, open }) => {
   return (
     <header className="header">
@@ -28,8 +28,17 @@ const Header = ({ setPage, setOpen, open }) => {
               <span>Vision</span>
             </li>
           </ul>
-          <span className="mobile-bt" onClick={() => {open ? setOpen(false) : setOpen(true)}}>
-            <FontAwesomeIcon icon={faBars} />
+          <span
+            className="mobile-bt"
+            onClick={() => {
+              open ? setOpen(false) : setOpen(true);
+            }}
+          >
+            {open ? (
+              <FontAwesomeIcon icon={faXmark} />
+            ) : (
+              <FontAwesomeIcon icon={faBars} />
+            )}
           </span>
         </nav>
       </div>

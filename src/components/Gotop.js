@@ -1,19 +1,9 @@
 import { useEffect, useRef } from "react";
 import Anime from "../assets/Anime";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Gotop = () => {
-  const style = {
-    position: "fixed",
-    right: 50,
-    bottom: -200,
-    width: 50,
-    height: 50,
-    background: "hotpink",
-    zIndex: 9999999,
-    cursor: "pointer",
-    fontSize: 0,
-    transition: "bottom 0.5s",
-  };
   //   스크롤 위치 값 파악하기
   const bt = useRef(null);
   const scrollFN = () => {
@@ -36,8 +26,8 @@ const Gotop = () => {
 
   return (
     <div
+      className="gotop"
       ref={bt}
-      style={style}
       onClick={() => {
         new Anime(window, {
           prop: "scroll",
@@ -46,7 +36,7 @@ const Gotop = () => {
         });
       }}
     >
-      Gotop
+      <FontAwesomeIcon icon={faArrowUp} />
     </div>
   );
 };
