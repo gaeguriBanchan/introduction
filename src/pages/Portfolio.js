@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const Portfolio = () => {
+  const path = process.env.PUBLIC_URL;
   return (
     <section className="portfolio scroll">
       <div className="inner">
@@ -24,7 +25,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="project" />
+                  <img src={`${path}/images/sample.png`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -37,7 +38,12 @@ const Portfolio = () => {
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
                   <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : <a href="https://github.com/gaeguriBanchan/hansalim">작업물보기</a> </li>
+                  <li>
+                    프로젝트 Git :{" "}
+                    <a href="https://github.com/gaeguriBanchan/hansalim">
+                      작업물보기
+                    </a>{" "}
+                  </li>
                   <li>프로젝트 노션 : </li>
                 </ul>
               </div>
@@ -50,33 +56,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="project" />
-                </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-              </div>
-              <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
-                </ul>
-              </div>
-            </div>
-            <div className="portfolio-team">
-              <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="./images/sample.png" alt="project" />
+                  <img src={`${path}/images/sample.png`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -102,7 +82,33 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="project" />
+                  <img src={`${path}/images/sample.png`} alt="project" />
+                </a>
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              </div>
+              <div className="portfolio-right">
+                <ul className="portfilio-team-list">
+                  <li>프로젝트명 : </li>
+                  <li>프로젝트 기간 : </li>
+                  <li>프로젝트 주제 : </li>
+                  <li>프로젝트 기여도 : </li>
+                  <li>프로젝트 도구 : </li>
+                  <li>프로젝트 사용언어 : </li>
+                  <li>프로젝트 피그마 : </li>
+                  <li>프로젝트 Git : </li>
+                  <li>프로젝트 노션 : </li>
+                </ul>
+              </div>
+            </div>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img src={`${path}/images/sample.png`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -157,7 +163,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="portfolio" />
+                  <img src={`${path}/images/sample.png`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -167,7 +173,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="portfolio" />
+                  <img src={`${path}/images/sample.png`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -177,7 +183,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="portfolio" />
+                  <img src={`${path}/images/sample.png`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -187,7 +193,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="portfolio" />
+                  <img src={`${path}/images/sample.png`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -197,7 +203,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="portfolio" />
+                  <img src={`${path}/images/sample.png`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -207,7 +213,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="./images/sample.png" alt="portfolio" />
+                  <img src={`${path}/images/sample.png`} alt="portfolio" />
                 </a>
               </SwiperSlide>
             </Swiper>
