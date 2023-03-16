@@ -1,14 +1,139 @@
 .profile {
+  background-color: $color-white;
   .inner {
+    .profile-title {
+      color: $color-pink;
+    }
     .contents {
-      width: 100%;
       display: flex;
       justify-content: space-between;
       .profile-box {
-        width: calc(50% - 10px);
-        text-align: center;
-        img {
-          width: 95%;
+        display: flex;
+        // width: calc(50% - 10px);
+        width: 100%;
+        height: 600px;
+        justify-content: space-around;
+        .profile-box-me {
+          display: flex;
+          flex-flow: column;
+          background-color: $color-white;
+          width: 450px;
+          height: 550px;
+          padding: 50px;
+          border-radius: 10px;
+          border: 1px solid $color-light-white;
+          box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+          -webkit-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+          -moz-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+          justify-content: space-around;
+          align-items: center;
+          .profile-imgBox {
+            .jaejinImg {
+              width: 250px;
+              border-radius: 100%;
+            }
+          }
+          .nameBox {
+            display: flex;
+            // margin-left: 20px;
+            font-size: 25px;
+            line-height: 25px;
+            p {
+              margin-left: 15px;
+              font-weight: $weight-semi-bold;
+            }
+          }
+          .birthBox {
+            display: flex;
+            // margin-left: 20px;
+            font-size: 25px;
+            line-height: 25px;
+            p {
+              margin-left: 15px;
+              font-weight: $weight-semi-bold;
+            }
+          }
+          .mapBox {
+            display: flex;
+            // margin-left: 20px;
+            font-size: 25px;
+            line-height: 25px;
+            p {
+              margin-left: 15px;
+              font-weight: $weight-semi-bold;
+            }
+          }
+          .emailBox {
+            display: flex;
+            // margin-left: 20px;
+            font-size: 25px;
+            line-height: 25px;
+            p {
+              margin-left: 15px;
+              font-weight: $weight-semi-bold;
+            }
+          }
+        }
+        .profile-box-intro {
+          // background-color: beige;
+          // width: 850px;
+          height: 550px;
+          padding: 50px;
+          display: grid;
+          .introTop {
+            .intro-title {
+              padding: 0;
+              font-size: $font-medium;
+            }
+            .intro-name {
+              font-size: $font-large;
+            }
+            .intro-mainText {
+              font-size: $font-medium;
+              b {
+                color: $color-light-pink;
+              }
+            }
+            .intro-subText {
+              font-size: $font-regular;
+              margin: 30px 0;
+            }
+          }
+          .introBottom {
+            display: flex;
+            // height: 200px;
+            justify-content: space-around;
+            .education {
+              width: 100%;
+              display: flex;
+              flex-flow: column;
+              justify-content: space-between;
+              font-size: $font-regular;
+              div {
+                font-size: $font-medium;
+                line-height: $font-medium;
+                span {
+                  margin-left: 15px;
+                }
+              }
+              .className{
+                color: $color-light-pink;
+              }
+            }
+            .mbti {
+              width: 100%;
+              display: flex;
+              flex-flow: column;
+              justify-content: space-between;
+              div {
+                font-size: $font-medium;
+                line-height: $font-medium;
+                span {
+                  margin-left: 15px;
+                }
+              }
+            }
+          }
         }
       }
     }

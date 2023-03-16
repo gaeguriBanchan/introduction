@@ -1,7 +1,7 @@
 .visual {
   height: calc(100vh - 80px);
   min-height: 650px;
-  // background: url('../../public/images/ganagawa.jpg') center/cover;
+  background: url('../../public/images/backimg.png') center/cover;
   .inner {
     height: 100%;
     display: flex;
@@ -10,16 +10,29 @@
     align-items: center;
     // background-color: black;
     .intro {
-      .intro-title{
-        font-size: $font-large;
+      width: 600px;
+      .intro-title {
+        font-size: 60px;
+        font-weight: 500;
+        color: $color-purple;
+        b {
+          color: $color-light-purple;
+          text-decoration: underline $color-white 4px;
+        }
       }
-
+      p {
+        font-size: $font-regular;
+        font-weight: $weight-semi-bold;
+        width: 100%;
+        margin-top: 15px;
+      }
     }
     .profileImg {
       justify-content: center;
       align-items: center;
       width: 650px;
       border-radius: 100%;
+      background-color: $color-white;
     }
   }
 }

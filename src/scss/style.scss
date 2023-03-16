@@ -45,3 +45,7 @@ $mp: 860px;
 @import 'portfolio';
 @import 'vision';
 @import 'life';
+
+::selection {
+  color: $color-pink;
+}

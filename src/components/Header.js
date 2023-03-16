@@ -20,7 +20,7 @@ const Header = ({ setPage, setOpen, open }) => {
               <span>Home</span>
             </li>
             <li onClick={() => setPage(1)}>
-              <span>Profile</span>
+              <span>About me</span>
             </li>
             <li onClick={() => setPage(2)}>
               <span>Skill</span>
