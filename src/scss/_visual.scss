@@ -36,3 +36,27 @@
     }
   }
 }
+
+// 데스크탑
+@media screen and (max-width: $desktop) {
+}
+// 타블렛
+@media screen and (max-width: 1215px) {
+  .visual {
+    .inner {
+      display: flex;
+      flex-flow: column-reverse;
+      .intro {
+        text-align: center;
+      }
+      .profileImg {
+        width: 500px;
+      }
+    }
+  }
+}
+@media screen and (max-width: $tablet) {
+}
+// 모바일
+@media screen and (max-width: $mp) {
+}

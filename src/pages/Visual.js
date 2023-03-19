@@ -15,7 +15,6 @@ const Visual = () => {
   return (
     <div className="visual scroll">
       <div className="inner">
-        {/* 첫인상 남기기(사진/대표단어 ) */}
         <div className="intro">
           <h1 className="intro-title">
             언제나 즐겁고 유쾌한 개발자 <b>김재진</b>입니다.

@@ -1,23 +1,24 @@
 .profile {
   background-color: $color-white;
+  height: calc(100vh - 80px);
   .inner {
     .profile-title {
       color: $color-pink;
     }
     .contents {
-      display: flex;
-      justify-content: space-between;
+      // display: flex;
+      // justify-content: space-between;
       .profile-box {
         display: flex;
-        // width: calc(50% - 10px);
+        width: calc(50% - 10px);
         width: 100%;
-        height: 600px;
+        height: auto;
         justify-content: space-around;
         .profile-box-me {
           display: flex;
           flex-flow: column;
           background-color: $color-white;
-          width: 450px;
+          width: calc(30%);
           height: 550px;
           padding: 50px;
           border-radius: 10px;
@@ -76,7 +77,7 @@
         }
         .profile-box-intro {
           // background-color: beige;
-          // width: 850px;
+          width: 65%;
           height: 550px;
           padding: 50px;
           display: grid;
@@ -103,12 +104,14 @@
             display: flex;
             // height: 200px;
             justify-content: space-around;
+            padding-top: 10px;
             .education {
               width: 100%;
               display: flex;
               flex-flow: column;
               justify-content: space-between;
               font-size: $font-regular;
+              padding-right: 10px;
               div {
                 font-size: $font-medium;
                 line-height: $font-medium;
@@ -116,7 +119,7 @@
                   margin-left: 15px;
                 }
               }
-              .className{
+              .className {
                 color: $color-light-pink;
               }
             }
@@ -132,6 +135,9 @@
                   margin-left: 15px;
                 }
               }
+              b {
+                color: $color-light-pink;
+              }
             }
           }
         }
@@ -143,14 +149,34 @@
 @media screen and (max-width: $desktop) {
 }
 // 타블렛
+@media screen and (max-width: 1215px) {
+  .profile {
+    height: auto;
+    .inner {
+      .profile-box {
+        flex-flow: column;
+        width: 100%;
+        .profile-box-me {
+          margin: auto;
+          width: 80% !important;
+        }
+        .profile-box-intro {
+          width: 100% !important;
+          .introTop {
+          }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: $tablet) {
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .profile .contents {
-    flex-wrap: wrap !important;
-    .profile-box {
-      width: 100% !important;
-    }
-  }
+  // .profile .contents {
+  //   flex-wrap: wrap !important;
+  //   .profile-box {
+  //     width: 100% !important;
+  //   }
+  // }
 }

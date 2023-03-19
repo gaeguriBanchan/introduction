@@ -1,18 +1,19 @@
-import React from "react";
+import React from 'react';
 // Swiper
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const Portfolio = () => {
   const path = process.env.PUBLIC_URL;
   return (
     <section className="portfolio scroll">
       <div className="inner">
-        {/* 개발담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 > 프론트)) */}
-        <h2 data-aos="fade-up">Portfolio</h2>
+        <h2 className="title" data-aos="fade-up">
+          Portfolio
+        </h2>
         <div className="contents">
           {/* 팀프로젝트 */}
           <div className="portfolio-box">
@@ -20,109 +21,97 @@ const Portfolio = () => {
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="https://gaeguribanchan.github.io/hansalim/"
+                  href="https://github.com/gaeguriBanchan/bookstore"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/교보미니.gif`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>
-                    프로젝트 Git :{" "}
-                    <a href="https://github.com/gaeguriBanchan/hansalim">
-                      작업물보기
-                    </a>{" "}
+                <div className="right-main">
+                  <span className="team-title">교보문고 미니프로젝트</span>
+                  <span className="day">2022.12.16 ~ 2022.12.23</span>
+                  <span className="skill">React Bootstrap</span>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    교보문고 사이트를 참조하여 도서를 검색하고 해당 도서에 대한
+                    상세 내용을 조회할 수 있는 웹사이트를 만들었습니다.
                   </li>
-                  <li>프로젝트 노션 : </li>
+                  <li className="info-sub">
+                    - 메인 페이지에서 "오늘의 선택" 항목을 통해 사용자에게
+                    도서를 추천하는 기능을 제공합니다.
+                    <br />- 리스트에서 원하는 책을 검색할 수 있습니다.
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="#"
+                  href="https://github.com/gaeguriBanchan/burgerwang/tree/master"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/버거왕.gif`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
+                <div className="right-main">
+                  <span className="team-title">버거킹 미니프로젝트</span>
+                  <span className="day">2023.01.11 ~ 2023.02.06</span>
+                  <span className="skill">React Tailwind Axios Redux </span>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    버거킹을 참고해서 패스트푸드 주문 프로그램을 만들었습니다.
+                    회원가입 후 자신의 주소를 저장하고 음식을 장바구니에 담아
+                    주문합니다.
+                  </li>
+                  <li className="info-sub">
+                    - 회원가입, 회원정보 수정, 탈퇴가 가능하고 자신의 이전
+                    주문정보 확인이 가능합니다.
+                    <br />- 장바구니에 담긴 음식들의 메뉴변경, 추가가 가능하고
+                    메뉴의 수량 총 금액 확인이 가능합니다.
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="#"
+                  href="https://github.com/gaeguriBanchan/dietdiary"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/sample.png`} alt="project" />
+                  <img src={`${path}/images/나의식단일지.gif`} alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
-                </ul>
-              </div>
-            </div>
-            <div className="portfolio-team">
-              <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="project" />
-                </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
-              </div>
-              <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
+                <div className="right-main">
+                  <span className="team-title">식단일지 미니프로젝트</span>
+                  <span className="day">2023.02.08 ~ 2023.03.03</span>
+                  <span className="skill">React Tailwind Axios Redux </span>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    식단관리를 통한 건강관리 프로그램을 만들었습니다. 자신이
+                    섭취하는 음식, 복용 중인 약물들을 기록하여 올바른 식습관을
+                    가지도록 합니다.
+                  </li>
+                  <li className="info-sub">
+                    - 섭취한 음식들을 입력하고 기록하며, 하루에 섭취한 칼로리를
+                    계산하고 목표를 달성했는지 확인 가능합니다.
+                    <br />- 섭취중인 보충제, 건강보조식품, 약물 등을 입력하고
+                    당일 목표 섭취량을 섭취했는지 확인합니다.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -136,7 +125,7 @@ const Portfolio = () => {
               slidesPerView={1}
               spaceBetween={0}
               pagination={{
-                type: "fraction",
+                type: 'fraction',
               }}
               navigation={true}
               breakpoints={{
