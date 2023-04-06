@@ -1,7 +1,7 @@
 import React from 'react';
 // Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
+import { Pagination, Navigation, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -17,7 +17,9 @@ const Portfolio = () => {
         <div className="contents">
           {/* 팀프로젝트 */}
           <div className="portfolio-box">
-            <h3 data-aos="fade-up">Team Project</h3>
+            <h3 className="teamProject" data-aos="fade-up">
+              Team Project
+            </h3>
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
@@ -124,9 +126,13 @@ const Portfolio = () => {
               loop={true}
               slidesPerView={1}
               spaceBetween={0}
-              pagination={{
-                type: 'fraction',
+              autoplay={{
+                delay: 2000,
+                disableOnInteraction: false,
               }}
+              // pagination={{
+              //   type: 'fraction',
+              // }}
               navigation={true}
               breakpoints={{
                 860: {
@@ -142,68 +148,199 @@ const Portfolio = () => {
                   spaceBetween: 30,
                 },
               }}
-              modules={[Pagination, Navigation]}
+              modules={[Autoplay, Pagination, Navigation]}
               className="portfolio-slide"
             >
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://gaeguribanchan.github.io/hansalim/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  alt="portfolio"
+                  alt="hansalim"
                 >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
+                  <img src={`${path}/images/hansalim.png`} alt="portfolio" />
                 </a>
+                <h5 className="projectName">한살림장보기 클론코딩</h5>
+                <div className="port-btns">
+                  <a
+                    href="https://gaeguribanchan.github.io/hansalim/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    WORK
+                  </a>
+                  <a
+                    href="https://github.com/gaeguriBanchan/hansalim"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://shop.hansalim.or.kr/shopping/spMain.do"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    Orign
+                  </a>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://gaeguribanchan.github.io/stx/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  alt="portfolio"
+                  alt="hansalim"
                 >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
+                  <img src={`${path}/images/stx건설.png`} alt="portfolio" />
                 </a>
+                <h5 className="projectName">STX건설 클론코딩</h5>
+                <div className="port-btns">
+                  <a
+                    href="https://gaeguribanchan.github.io/stx/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    WORK
+                  </a>
+                  <a
+                    href="https://github.com/gaeguriBanchan/stx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="http://www.stxconst.co.kr/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    Orign
+                  </a>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://gaeguribanchan.github.io/findWally/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  alt="portfolio"
+                  alt="hansalim"
                 >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
+                  <img src={`${path}/images/findWally.png`} alt="portfolio" />
                 </a>
+                <h5 className="projectName">월리를 찾아라 미니게임</h5>
+                <div className="port-btns">
+                  <a
+                    href="https://gaeguribanchan.github.io/findWally/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    WORK
+                  </a>
+                  <a
+                    href="https://github.com/gaeguriBanchan/findWally"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    GitHub
+                  </a>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://gaeguribanchan.github.io/hansalim/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  alt="portfolio"
+                  alt="hansalim"
                 >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
+                  <img src={`${path}/images/hansalim.png`} alt="portfolio" />
                 </a>
+                <h5 className="projectName">한살림장보기 클론코딩</h5>
+                <div className="port-btns">
+                  <a
+                    href="https://gaeguribanchan.github.io/hansalim/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    WORK
+                  </a>
+                  <a
+                    href="https://github.com/gaeguriBanchan/hansalim"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://shop.hansalim.or.kr/shopping/spMain.do"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    Orign
+                  </a>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://gaeguribanchan.github.io/hansalim/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  alt="portfolio"
+                  alt="hansalim"
                 >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
+                  <img src={`${path}/images/hansalim.png`} alt="portfolio" />
                 </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src={`${path}/images/sample.png`} alt="portfolio" />
-                </a>
+                <h5 className="projectName">한살림장보기 클론코딩</h5>
+                <div className="port-btns">
+                  <a
+                    href="https://gaeguribanchan.github.io/hansalim/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    WORK
+                  </a>
+                  <a
+                    href="https://github.com/gaeguriBanchan/hansalim"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://shop.hansalim.or.kr/shopping/spMain.do"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="hansalim"
+                  >
+                    Orign
+                  </a>
+                </div>
               </SwiperSlide>
             </Swiper>
           </div>

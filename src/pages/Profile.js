@@ -76,7 +76,7 @@ const Profile = () => {
                 <div className="mbti">
                   <div>
                     <IoBodyOutline />
-                    <span>ENFP-T</span>
+                    <span>ENFP</span>
                   </div>
                   <span><b>호기심</b>: 상상력이 풍부하고 열린 마음을 가진 이 사람들은 새로운 아이디어, 경험 및 모험을 찾기 위한 모험을 두려워하지 않습니다.</span>
                   <span><b>훌륭한 커뮤니케이터</b>: 모든 종류의 사람들과 긍정적이고 즐거운 대화를 나눌 수 있는 능력을 제공합니다.</span>
