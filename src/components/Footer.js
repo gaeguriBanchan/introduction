@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
     <footer className="footer scroll">
       <div className="inner">
-        <p>Copyright ⓒ Tarolong All Right Reserved.</p>
+        <p>Copyright ⓒ KIMJAEJIN All Right Reserved.</p>
       </div>
     </footer>
   );

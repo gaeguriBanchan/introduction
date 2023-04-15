@@ -196,7 +196,7 @@ const Portfolio = () => {
                   href="https://gaeguribanchan.github.io/stx/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  alt="hansalim"
+                  alt="stx"
                 >
                   <img src={`${path}/images/stx건설.png`} alt="portfolio" />
                 </a>
@@ -207,7 +207,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="port-btn"
-                    alt="hansalim"
+                    alt="stx"
                   >
                     WORK
                   </a>
@@ -216,7 +216,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="port-btn"
-                    alt="hansalim"
+                    alt="stx"
                   >
                     GitHub
                   </a>
@@ -225,7 +225,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="port-btn"
-                    alt="hansalim"
+                    alt="stx"
                   >
                     Orign
                   </a>
@@ -236,7 +236,7 @@ const Portfolio = () => {
                   href="https://gaeguribanchan.github.io/findWally/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  alt="hansalim"
+                  alt="findWally"
                 >
                   <img src={`${path}/images/findWally.png`} alt="portfolio" />
                 </a>
@@ -247,7 +247,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="port-btn"
-                    alt="hansalim"
+                    alt="findWally"
                   >
                     WORK
                   </a>
@@ -256,13 +256,56 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="port-btn"
-                    alt="hansalim"
+                    alt="findWally"
                   >
                     GitHub
                   </a>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
+                <a
+                  href="https://gaeguribanchan.github.io/wonderplace-clone/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="wonderplace"
+                >
+                  <img
+                    src={`${path}/images/원더플레이스.png`}
+                    alt="portfolio"
+                  />
+                </a>
+                <h5 className="projectName">원더플레이스 클론코딩</h5>
+                <div className="port-btns">
+                  <a
+                    href="https://gaeguribanchan.github.io/wonderplace-clone/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="wonderplace"
+                  >
+                    WORK
+                  </a>
+                  <a
+                    href="https://github.com/gaeguriBanchan/wonderplace-clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="wonderplace"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://www.wonderplace.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="port-btn"
+                    alt="wonderplace"
+                  >
+                    Orign
+                  </a>
+                </div>
+              </SwiperSlide>
+              {/* <SwiperSlide>
                 <a
                   href="https://gaeguribanchan.github.io/hansalim/index.html"
                   target="_blank"
@@ -301,47 +344,7 @@ const Portfolio = () => {
                     Orign
                   </a>
                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="https://gaeguribanchan.github.io/hansalim/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="hansalim"
-                >
-                  <img src={`${path}/images/hansalim.png`} alt="portfolio" />
-                </a>
-                <h5 className="projectName">한살림장보기 클론코딩</h5>
-                <div className="port-btns">
-                  <a
-                    href="https://gaeguribanchan.github.io/hansalim/index.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="port-btn"
-                    alt="hansalim"
-                  >
-                    WORK
-                  </a>
-                  <a
-                    href="https://github.com/gaeguriBanchan/hansalim"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="port-btn"
-                    alt="hansalim"
-                  >
-                    GitHub
-                  </a>
-                  <a
-                    href="https://shop.hansalim.or.kr/shopping/spMain.do"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="port-btn"
-                    alt="hansalim"
-                  >
-                    Orign
-                  </a>
-                </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
           </div>
         </div>

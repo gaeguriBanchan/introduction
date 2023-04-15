@@ -78,7 +78,7 @@
         .profile-box-intro {
           // background-color: beige;
           width: 65%;
-          height: 550px;
+          // height: 550px;
           padding: 50px;
           display: grid;
           .introTop {
@@ -151,8 +151,9 @@
 // 타블렛
 @media screen and (max-width: 1215px) {
   .profile {
-    height: auto;
+    height: 100% !important;
     .inner {
+      height: 100% !important;
       .profile-box {
         flex-flow: column;
         width: 100%;
