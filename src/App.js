@@ -1,22 +1,22 @@
-import "./scss/style.scss";
+import './scss/style.scss';
 // Anime.js
-import Anime from "./assets/Anime";
+import Anime from './assets/Anime';
 
 // AOS
-import AOS from "aos";
-import "aos/dist/aos.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-import React, { useEffect, useRef, useState } from "react";
-import Header from "./components/Header";
-import Visual from "./pages/Visual";
-import Profile from "./pages/Profile";
-import Skills from "./pages/Skills";
-import Portfolio from "./pages/Portfolio";
-import Vision from "./pages/Vision";
-import Life from "./pages/Life";
-import Footer from "./components/Footer";
-import Gotop from "./components/Gotop";
-import MobileMenu from "./components/MobileMenu";
+import React, { useEffect, useRef, useState } from 'react';
+import Header from './components/Header';
+import Visual from './pages/Visual';
+import Profile from './pages/Profile';
+import Skills from './pages/Skills';
+import Portfolio from './pages/Portfolio';
+import Vision from './pages/Vision';
+// import Life from './pages/Life';
+import Footer from './components/Footer';
+import Gotop from './components/Gotop';
+import MobileMenu from './components/MobileMenu';
 
 const App = () => {
   // Anime 적용대상
@@ -30,7 +30,7 @@ const App = () => {
     // 2. 기본 section 스크롤 위치값을 초기화
     pos.current = [];
     // 3. 각  section 위치값을 파악해서 저장한다.
-    const secs = main.current.querySelectorAll(".scroll");
+    const secs = main.current.querySelectorAll('.scroll');
     for (const item of secs) {
       // 각 영역의 스크롤 픽셀 위치값
       pos.current.push(item.offsetTop);
@@ -49,7 +49,7 @@ const App = () => {
   useEffect(() => {
     // console.log("현재 이동 페이지 : ", page);
     new Anime(window, {
-      prop: "scroll",
+      prop: 'scroll',
       value: pos.current[page] - 80,
       duration: 500,
     });
@@ -62,12 +62,12 @@ const App = () => {
     // 1. 최초 section 스크롤 위치값을 파악
     getPos();
     // 4. 화면 리사이즈 할 때도 getPos() 실행 필요
-    window.addEventListener("resize", getPos);
-    window.addEventListener("scroll", getPos);
+    window.addEventListener('resize', getPos);
+    window.addEventListener('scroll', getPos);
     // 5. 클린업 함수 작성
     return () => {
-      window.removeEventListener("resize", getPos);
-      window.removeEventListener("scroll", getPos);
+      window.removeEventListener('resize', getPos);
+      window.removeEventListener('scroll', getPos);
     };
   }, []);
 
@@ -87,7 +87,7 @@ const App = () => {
         <Profile />
         <Skills />
         <Portfolio />
-        <Life />
+        {/* <Life /> */}
         <Vision />
       </div>
       <Footer />

@@ -10,7 +10,7 @@ const Vision = () => {
           <ul className="vision-list">
             <li>
               <span>
-                <b>캐칭을 가장 잘하는 개발자.</b>
+                <b>트렌드를 따르는 개발자.</b>
               </span>
               <p>
                 <strong>1년 후</strong> 저는 선배/동료의 장점과 기술을 제대로
@@ -20,7 +20,7 @@ const Vision = () => {
             </li>
             <li>
               <span>
-                <b>니즈를 Meet 할줄 아는 개발자.</b>
+                <b>회사의 니즈를 만족시킬 개발자.</b>
               </span>
               <p>
                 <strong>3년 후</strong> 저는 고객의 요구사항을 만족시킬 수 있는
