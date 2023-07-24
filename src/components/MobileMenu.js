@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from 'react';
 
 const MobileMenu = ({ setPage, open, setOpen }) => {
   return (
-    <div className={open ? "mobile active" : "mobile"}>
+    <div className={open ? 'mobile active' : 'mobile'}>
       <ul className="mobile-menu">
         <li
           onClick={() => {

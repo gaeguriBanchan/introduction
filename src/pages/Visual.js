@@ -1,17 +1,17 @@
-import React, { useRef } from 'react';
-import Anime from '../assets/Anime';
+import React from 'react';
+// import Anime from '../assets/Anime';
 
 const Visual = () => {
   const path = process.env.PUBLIC_URL;
-  const style = {
-    width: 100,
-    height: 100,
-    background: 'green',
-    position: 'absolute',
-    left: 100,
-    top: 100,
-  };
-  const box = useRef(null);
+  // const style = {
+  //   width: 100,
+  //   height: 100,
+  //   background: 'green',
+  //   position: 'absolute',
+  //   left: 100,
+  //   top: 100,
+  // };
+  // const box = useRef(null);
   return (
     <div className="visual scroll">
       <div className="inner">
