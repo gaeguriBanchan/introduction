@@ -5,7 +5,7 @@ export default class Anime {
     this.startTime = performance.now();
     this.currentValue = null;
 
-    if (this.option.prop === "scroll")
+    if (this.option.prop === 'scroll')
       this.currentValue = this.selector.scrollY;
     else
       this.currentValue = parseFloat(
@@ -14,22 +14,22 @@ export default class Anime {
 
     this.isString = typeof this.option.value;
 
-    if (this.isString === "string") {
+    if (this.isString === 'string') {
       const parentW = parseInt(
         getComputedStyle(this.selector.parentElement).width
       );
       const parentH = parseInt(
         getComputedStyle(this.selector.parentElement).height
       );
-      const x = ["margin-left", "margin-right", "left", "right", "width"];
-      const y = ["margin-top", "margin-bottom", "top", "bottom", "height"];
+      const x = ['margin-left', 'margin-right', 'left', 'right', 'width'];
+      const y = ['margin-top', 'margin-bottom', 'top', 'bottom', 'height'];
 
       for (let condition of x) {
-        if (this.option.prop == condition)
+        if (this.option.prop === condition)
           this.currentValue = (this.currentValue / parentW) * 100;
       }
       for (let condition of y) {
-        if (this.option.prop == condition)
+        if (this.option.prop === condition)
           this.currentValue = (this.currentValue / parentH) * 100;
       }
       this.option.value = parseFloat(this.option.value);
@@ -57,11 +57,11 @@ export default class Anime {
     let result =
       this.currentValue + (this.option.value - this.currentValue) * progress;
 
-    if (this.isString === "string")
-      this.selector.style[this.option.prop] = result + "%";
-    else if (this.option.prop === "opacity")
+    if (this.isString === 'string')
+      this.selector.style[this.option.prop] = result + '%';
+    else if (this.option.prop === 'opacity')
       this.selector.style[this.option.prop] = result;
-    else if (this.option.prop === "scroll") window.scroll(0, result);
-    else this.selector.style[this.option.prop] = result + "px";
+    else if (this.option.prop === 'scroll') window.scroll(0, result);
+    else this.selector.style[this.option.prop] = result + 'px';
   }
 }
