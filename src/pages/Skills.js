@@ -49,9 +49,9 @@ const Skills = () => {
               <img
                 src={`${path}/images/skill-react.png`}
                 alt="skill"
-                data-aos="fade-up"
-                data-aos-duration="300"
-                data-aos-delay="600"
+                // data-aos="fade-up"
+                // data-aos-duration="300"
+                // data-aos-delay="600"
               />
               <div className="skill">
                 <div className="skill-description">
@@ -87,7 +87,7 @@ const Skills = () => {
                 </div>
               </div>
             </li>
-            {/* <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="900">
+            <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="900">
               <img src={`${path}/images/skill-figma.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
@@ -98,8 +98,12 @@ const Skills = () => {
                   <div className="skill-value" style={{ width: '70%' }}></div>
                 </div>
               </div>
-            </li> */}
-            <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="900">
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-delay="1000"
+            >
               <img src={`${path}/images/skill-type.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
@@ -114,7 +118,7 @@ const Skills = () => {
             <li
               data-aos="fade-up"
               data-aos-duration="300"
-              data-aos-delay="1000"
+              data-aos-delay="1100"
             >
               <img src={`${path}/images/skill-sass.png`} alt="skill" />
               <div className="skill">
@@ -124,6 +128,54 @@ const Skills = () => {
                 </div>
                 <div className="skill-bar">
                   <div className="skill-value" style={{ width: '87%' }}></div>
+                </div>
+              </div>
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-delay="1200"
+            >
+              <img src={`${path}/images/jQuery.png`} alt="skill" />
+              <div className="skill">
+                <div className="skill-description">
+                  <span>jQuery</span>
+                  <span>67%</span>
+                </div>
+                <div className="skill-bar">
+                  <div className="skill-value" style={{ width: '67%' }}></div>
+                </div>
+              </div>
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-delay="1300"
+            >
+              <img src={`${path}/images/dart.png`} alt="skill" />
+              <div className="skill">
+                <div className="skill-description">
+                  <span>dart</span>
+                  <span>77%</span>
+                </div>
+                <div className="skill-bar">
+                  <div className="skill-value" style={{ width: '77%' }}></div>
+                </div>
+              </div>
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-delay="1400"
+            >
+              <img src={`${path}/images/flutter.png`} alt="skill" />
+              <div className="skill">
+                <div className="skill-description">
+                  <span>flutter</span>
+                  <span>80%</span>
+                </div>
+                <div className="skill-bar">
+                  <div className="skill-value" style={{ width: '80%' }}></div>
                 </div>
               </div>
             </li>

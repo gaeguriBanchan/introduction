@@ -467,7 +467,7 @@ h3 {
   display: grid;
   width: 25%;
   text-align: center;
-  margin: 25px 0;
+  margin: 15px 0;
 }
 .skills .inner .contents .skills-list li img {
   width: 40%;
@@ -507,7 +507,6 @@ h3 {
 }
 .portfolio .inner .title {
   display: flex;
-  justify-content: center;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team {
   display: flex;
@@ -554,6 +553,54 @@ h3 {
   margin-bottom: 15px;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .portfolio-team-list .info-sub {
+  font-size: 18px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 50px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-left {
+  width: calc(50% - 10px);
+  text-align: center;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-left a {
+  display: block;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-left a img {
+  width: 35%;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-right {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-flow: column;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-right .right-main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-right .right-main .flutter-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-right .right-main .day {
+  font-size: 20px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-right .right-main .skill {
+  font-size: 22px;
+  color: #f68cb9;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-right .portfolio-flutter-list .info-main {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-flutter .portfolio-right .portfolio-flutter-list .info-sub {
   font-size: 18px;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-slide .swiper-button-next,

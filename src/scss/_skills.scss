@@ -11,7 +11,7 @@
           display: grid;
           width: 25%;
           text-align: center;
-          margin: 25px 0;
+          margin: 15px 0;
           img {
             width: 40%;
             margin: auto;
@@ -22,8 +22,6 @@
             .skill-description {
               display: flex;
               justify-content: space-between;
-              span {
-              }
             }
             .skill-bar {
               width: 100%;
