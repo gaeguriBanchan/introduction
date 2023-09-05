@@ -54,3 +54,24 @@ h3 {
 }
 // h4 {
 // }
+
+@media screen and (max-width: $mp) {
+  body {
+    max-width: $mp;
+  }
+}
+@media screen and (max-width: $smp) {
+  body {
+    max-width: $smp;
+  }
+}
+@media screen and (max-width: $ssmp) {
+  body {
+    max-width: $ssmp;
+  }
+}
+@media screen and (max-width: $sssmp) {
+  body {
+    max-width: $sssmp;
+  }
+}

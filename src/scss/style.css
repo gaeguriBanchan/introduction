@@ -100,6 +100,26 @@ h3 {
   text-align: center;
 }
 
+@media screen and (max-width: 860px) {
+  body {
+    max-width: 860px;
+  }
+}
+@media screen and (max-width: 580px) {
+  body {
+    max-width: 580px;
+  }
+}
+@media screen and (max-width: 525px) {
+  body {
+    max-width: 525px;
+  }
+}
+@media screen and (max-width: 495px) {
+  body {
+    max-width: 495px;
+  }
+}
 .header {
   position: fixed;
   left: 0;
