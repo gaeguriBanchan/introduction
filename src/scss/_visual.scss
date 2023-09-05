@@ -113,13 +113,36 @@
           font-size: $font-regular;
         }
         p {
-          width: 80%;
+          width: 75%;
           flex-wrap: wrap;
           font-size: $font-micro;
         }
       }
       .profileImg {
         height: 55%;
+      }
+    }
+  }
+}
+// ss모바일
+@media screen and (max-width: $sssmp) {
+  .visual {
+    .inner {
+      .intro {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .intro-title {
+          font-size: $font-regular;
+        }
+        p {
+          width: 60%;
+          flex-wrap: wrap;
+          font-size: $font-micro;
+        }
+      }
+      .profileImg {
+        height: 50%;
       }
     }
   }

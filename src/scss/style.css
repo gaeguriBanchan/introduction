@@ -345,12 +345,30 @@ h3 {
     font-size: 18px;
   }
   .visual .inner .intro p {
-    width: 80%;
+    width: 75%;
     flex-wrap: wrap;
     font-size: 14px;
   }
   .visual .inner .profileImg {
     height: 55%;
+  }
+}
+@media screen and (max-width: 495px) {
+  .visual .inner .intro {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .visual .inner .intro .intro-title {
+    font-size: 18px;
+  }
+  .visual .inner .intro p {
+    width: 60%;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  .visual .inner .profileImg {
+    height: 50%;
   }
 }
 .profile {
