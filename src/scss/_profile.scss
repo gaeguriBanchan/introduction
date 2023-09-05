@@ -163,8 +163,8 @@
         }
         .profile-box-intro {
           width: 100% !important;
-          .introTop {
-          }
+          // .introTop {
+          // }
         }
       }
     }
@@ -180,4 +180,17 @@
   //     width: 100% !important;
   //   }
   // }
+}
+@media screen and (max-width: $ssmp) {
+  .profile {
+    .inner {
+      .profile-box {
+        .profile-box-me {
+          p {
+            font-size: $font-regular;
+          }
+        }
+      }
+    }
+  }
 }

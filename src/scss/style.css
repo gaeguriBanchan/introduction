@@ -294,12 +294,63 @@ h3 {
   .visual .inner {
     display: flex;
     flex-flow: column-reverse;
+    justify-content: space-evenly;
   }
   .visual .inner .intro {
     text-align: center;
   }
+  .visual .inner .intro .intro-title {
+    font-size: 48px;
+  }
   .visual .inner .profileImg {
     height: 60%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .visual .inner .intro {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .visual .inner .intro .intro-title {
+    font-size: 40px;
+  }
+  .visual .inner .intro p {
+    width: 90%;
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+  .visual .inner .profileImg {
+    height: 60%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .visual .inner .intro .intro-title {
+    font-size: 28px;
+  }
+  .visual .inner .intro p {
+    font-size: 14px;
+  }
+  .visual .inner .profileImg {
+    height: 60%;
+  }
+}
+@media screen and (max-width: 525px) {
+  .visual .inner .intro {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .visual .inner .intro .intro-title {
+    font-size: 18px;
+  }
+  .visual .inner .intro p {
+    width: 80%;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  .visual .inner .profileImg {
+    height: 55%;
   }
 }
 .profile {
@@ -450,6 +501,11 @@ h3 {
   }
   .profile .inner .profile-box .profile-box-intro {
     width: 100% !important;
+  }
+}
+@media screen and (max-width: 525px) {
+  .profile .inner .profile-box .profile-box-me p {
+    font-size: 18px;
   }
 }
 .skills {

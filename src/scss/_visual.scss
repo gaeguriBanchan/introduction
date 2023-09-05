@@ -46,8 +46,12 @@
     .inner {
       display: flex;
       flex-flow: column-reverse;
+      justify-content: space-evenly;
       .intro {
         text-align: center;
+        .intro-title {
+          font-size: $font-large;
+        }
       }
       .profileImg {
         height: 60%;
@@ -57,6 +61,66 @@
 }
 @media screen and (max-width: $tablet) {
 }
-// 모바일
 @media screen and (max-width: $mp) {
+  .visual {
+    .inner {
+      .intro {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .intro-title {
+          font-size: 40px;
+        }
+        p {
+          width: 90%;
+          flex-wrap: wrap;
+          font-size: $font-small;
+        }
+      }
+      .profileImg {
+        height: 60%;
+      }
+    }
+  }
+}
+// 모바일
+@media screen and (max-width: $smp) {
+  .visual {
+    .inner {
+      .intro {
+        .intro-title {
+          font-size: $font-medium;
+        }
+        p {
+          font-size: $font-micro;
+        }
+      }
+      .profileImg {
+        height: 60%;
+      }
+    }
+  }
+}
+// ss모바일
+@media screen and (max-width: $ssmp) {
+  .visual {
+    .inner {
+      .intro {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .intro-title {
+          font-size: $font-regular;
+        }
+        p {
+          width: 80%;
+          flex-wrap: wrap;
+          font-size: $font-micro;
+        }
+      }
+      .profileImg {
+        height: 55%;
+      }
+    }
+  }
 }
