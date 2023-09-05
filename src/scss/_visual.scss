@@ -91,6 +91,7 @@
     .inner {
       max-width: $smp;
       .intro {
+        width: 500px !important;
         .intro-title {
           font-size: $font-medium;
         }
@@ -110,6 +111,7 @@
     .inner {
       max-width: $ssmp;
       .intro {
+        width: $ssmp;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -117,7 +119,7 @@
           font-size: $font-regular;
         }
         p {
-          width: 75%;
+          width: 80%;
           flex-wrap: wrap;
           font-size: $font-micro;
         }
@@ -128,12 +130,13 @@
     }
   }
 }
-// ss모바일
+// sss모바일
 @media screen and (max-width: $sssmp) {
   .visual {
     .inner {
       max-width: sssmp;
       .intro {
+        width: 400px !important;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -141,13 +144,38 @@
           font-size: $font-regular;
         }
         p {
-          width: 60%;
+          width: 80%;
           flex-wrap: wrap;
           font-size: $font-micro;
         }
       }
       .profileImg {
         height: 50%;
+      }
+    }
+  }
+}
+// ssss모바일
+@media screen and (max-width: $ssssmp) {
+  .visual {
+    .inner {
+      max-width: sssmp;
+      .intro {
+        width: 300px !important;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .intro-title {
+          font-size: $font-regular;
+        }
+        p {
+          width: 80%;
+          flex-wrap: wrap;
+          font-size: $font-micro;
+        }
+      }
+      .profileImg {
+        height: 45%;
       }
     }
   }

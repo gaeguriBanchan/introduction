@@ -194,3 +194,16 @@
     }
   }
 }
+@media screen and (max-width: $ssssmp) {
+  .profile {
+    .inner {
+      .profile-box {
+        .profile-box-me {
+          p {
+            font-size: $font-small;
+          }
+        }
+      }
+    }
+  }
+}

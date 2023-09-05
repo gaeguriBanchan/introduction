@@ -217,12 +217,12 @@ h3 {
 }
 @media screen and (max-width: 525px) {
   .header {
-    max-width: 525px;
+    max-width: 525px !important;
   }
 }
 @media screen and (max-width: 495px) {
   .header {
-    max-width: 495px;
+    max-width: 495px !important;
   }
 }
 .footer {
@@ -370,6 +370,9 @@ h3 {
   .visual .inner {
     max-width: 580px;
   }
+  .visual .inner .intro {
+    width: 500px !important;
+  }
   .visual .inner .intro .intro-title {
     font-size: 28px;
   }
@@ -385,6 +388,7 @@ h3 {
     max-width: 525px;
   }
   .visual .inner .intro {
+    width: 525px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -393,7 +397,7 @@ h3 {
     font-size: 18px;
   }
   .visual .inner .intro p {
-    width: 75%;
+    width: 80%;
     flex-wrap: wrap;
     font-size: 14px;
   }
@@ -406,6 +410,7 @@ h3 {
     max-width: sssmp;
   }
   .visual .inner .intro {
+    width: 400px !important;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -414,12 +419,34 @@ h3 {
     font-size: 18px;
   }
   .visual .inner .intro p {
-    width: 60%;
+    width: 80%;
     flex-wrap: wrap;
     font-size: 14px;
   }
   .visual .inner .profileImg {
     height: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .visual .inner {
+    max-width: sssmp;
+  }
+  .visual .inner .intro {
+    width: 300px !important;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .visual .inner .intro .intro-title {
+    font-size: 18px;
+  }
+  .visual .inner .intro p {
+    width: 80%;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  .visual .inner .profileImg {
+    height: 45%;
   }
 }
 .profile {
@@ -577,6 +604,11 @@ h3 {
     font-size: 18px;
   }
 }
+@media screen and (max-width: 400px) {
+  .profile .inner .profile-box .profile-box-me p {
+    font-size: 16px;
+  }
+}
 .skills {
   height: 100vh;
 }
@@ -595,7 +627,7 @@ h3 {
   margin: 15px 0;
 }
 .skills .inner .contents .skills-list li img {
-  width: 40%;
+  width: 35%;
   margin: auto;
 }
 .skills .inner .contents .skills-list li .skill {

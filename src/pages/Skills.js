@@ -46,13 +46,7 @@ const Skills = () => {
               </div>
             </li>
             <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="600">
-              <img
-                src={`${path}/images/skill-react.png`}
-                alt="skill"
-                // data-aos="fade-up"
-                // data-aos-duration="300"
-                // data-aos-delay="600"
-              />
+              <img src={`${path}/images/skill-react.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
                   <span>React</span>
@@ -64,38 +58,38 @@ const Skills = () => {
               </div>
             </li>
             <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="700">
-              <img src={`${path}/images/skill-git.png`} alt="skill" />
+              <img src={`${path}/images/dart.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
-                  <span>git</span>
-                  <span>76%</span>
+                  <span>dart</span>
+                  <span>77%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-value" style={{ width: '76%' }}></div>
+                  <div className="skill-value" style={{ width: '77%' }}></div>
                 </div>
               </div>
             </li>
             <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="800">
-              <img src={`${path}/images/skill-redux.png`} alt="skill" />
+              <img src={`${path}/images/flutter.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
-                  <span>redux</span>
-                  <span>70%</span>
+                  <span>flutter</span>
+                  <span>80%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-value" style={{ width: '70%' }}></div>
+                  <div className="skill-value" style={{ width: '80%' }}></div>
                 </div>
               </div>
             </li>
             <li data-aos="fade-up" data-aos-duration="300" data-aos-delay="900">
-              <img src={`${path}/images/skill-figma.png`} alt="skill" />
+              <img src={`${path}/images/skill-sass.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
-                  <span>figma</span>
-                  <span>70%</span>
+                  <span>scss</span>
+                  <span>87%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-value" style={{ width: '70%' }}></div>
+                  <div className="skill-value" style={{ width: '87%' }}></div>
                 </div>
               </div>
             </li>
@@ -118,23 +112,23 @@ const Skills = () => {
             <li
               data-aos="fade-up"
               data-aos-duration="300"
-              data-aos-delay="1100"
+              data-aos-delay="1000"
             >
-              <img src={`${path}/images/skill-sass.png`} alt="skill" />
+              <img src={`${path}/images/skill-git.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
-                  <span>scss</span>
-                  <span>87%</span>
+                  <span>git</span>
+                  <span>76%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-value" style={{ width: '87%' }}></div>
+                  <div className="skill-value" style={{ width: '76%' }}></div>
                 </div>
               </div>
             </li>
             <li
               data-aos="fade-up"
               data-aos-duration="300"
-              data-aos-delay="1200"
+              data-aos-delay="1000"
             >
               <img src={`${path}/images/jQuery.png`} alt="skill" />
               <div className="skill">
@@ -150,32 +144,32 @@ const Skills = () => {
             <li
               data-aos="fade-up"
               data-aos-duration="300"
-              data-aos-delay="1300"
+              data-aos-delay="1000"
             >
-              <img src={`${path}/images/dart.png`} alt="skill" />
+              <img src={`${path}/images/skill-redux.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
-                  <span>dart</span>
-                  <span>77%</span>
+                  <span>redux</span>
+                  <span>70%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-value" style={{ width: '77%' }}></div>
+                  <div className="skill-value" style={{ width: '70%' }}></div>
                 </div>
               </div>
             </li>
             <li
               data-aos="fade-up"
               data-aos-duration="300"
-              data-aos-delay="1400"
+              data-aos-delay="1000"
             >
-              <img src={`${path}/images/flutter.png`} alt="skill" />
+              <img src={`${path}/images/skill-figma.png`} alt="skill" />
               <div className="skill">
                 <div className="skill-description">
-                  <span>flutter</span>
-                  <span>80%</span>
+                  <span>figma</span>
+                  <span>70%</span>
                 </div>
                 <div className="skill-bar">
-                  <div className="skill-value" style={{ width: '80%' }}></div>
+                  <div className="skill-value" style={{ width: '70%' }}></div>
                 </div>
               </div>
             </li>
