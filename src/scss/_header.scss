@@ -85,10 +85,29 @@
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .gnb {
-    display: none !important;
+  .header {
+    max-width: $mp;
+    .gnb {
+      display: none !important;
+    }
+    .mobile-bt {
+      display: block !important;
+    }
   }
-  .mobile-bt {
-    display: block !important;
+}
+
+@media screen and (max-width: $smp) {
+  .header {
+    max-width: $smp;
+  }
+}
+@media screen and (max-width: $ssmp) {
+  .header {
+    max-width: $ssmp;
+  }
+}
+@media screen and (max-width: $sssmp) {
+  .header {
+    max-width: $sssmp;
   }
 }

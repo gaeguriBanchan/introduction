@@ -200,11 +200,29 @@ h3 {
   }
 }
 @media screen and (max-width: 860px) {
-  .gnb {
+  .header {
+    max-width: 860px;
+  }
+  .header .gnb {
     display: none !important;
   }
-  .mobile-bt {
+  .header .mobile-bt {
     display: block !important;
+  }
+}
+@media screen and (max-width: 580px) {
+  .header {
+    max-width: 580px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .header {
+    max-width: 525px;
+  }
+}
+@media screen and (max-width: 495px) {
+  .header {
+    max-width: 495px;
   }
 }
 .footer {
@@ -247,11 +265,6 @@ h3 {
   bottom: 100px !important;
 }
 
-@media screen and (max-width: 580px) {
-  .gotop {
-    right: 100px;
-  }
-}
 .mobile {
   position: fixed;
   left: 100%;
