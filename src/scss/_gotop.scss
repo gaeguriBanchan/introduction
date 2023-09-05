@@ -18,3 +18,9 @@
 .active {
   bottom: 100px !important;
 }
+
+@media screen and (max-width: $smp) {
+  .gotop {
+    right: 100px;
+  }
+}

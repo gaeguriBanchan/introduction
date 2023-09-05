@@ -227,6 +227,11 @@ h3 {
   bottom: 100px !important;
 }
 
+@media screen and (max-width: 580px) {
+  .gotop {
+    right: 100px;
+  }
+}
 .mobile {
   position: fixed;
   left: 100%;
@@ -292,6 +297,7 @@ h3 {
 
 @media screen and (max-width: 1215px) {
   .visual .inner {
+    max-width: 1215px;
     display: flex;
     flex-flow: column-reverse;
     justify-content: space-evenly;
@@ -307,6 +313,9 @@ h3 {
   }
 }
 @media screen and (max-width: 860px) {
+  .visual .inner {
+    max-width: 860px;
+  }
   .visual .inner .intro {
     display: flex;
     flex-flow: column;
@@ -325,6 +334,9 @@ h3 {
   }
 }
 @media screen and (max-width: 580px) {
+  .visual .inner {
+    max-width: 580px;
+  }
   .visual .inner .intro .intro-title {
     font-size: 28px;
   }
@@ -336,6 +348,9 @@ h3 {
   }
 }
 @media screen and (max-width: 525px) {
+  .visual .inner {
+    max-width: 525px;
+  }
   .visual .inner .intro {
     display: flex;
     flex-flow: column;
@@ -354,6 +369,9 @@ h3 {
   }
 }
 @media screen and (max-width: 495px) {
+  .visual .inner {
+    max-width: sssmp;
+  }
   .visual .inner .intro {
     display: flex;
     flex-flow: column;

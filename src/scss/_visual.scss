@@ -44,6 +44,7 @@
 @media screen and (max-width: 1215px) {
   .visual {
     .inner {
+      max-width: 1215px;
       display: flex;
       flex-flow: column-reverse;
       justify-content: space-evenly;
@@ -64,6 +65,7 @@
 @media screen and (max-width: $mp) {
   .visual {
     .inner {
+      max-width: $mp;
       .intro {
         display: flex;
         flex-flow: column;
@@ -87,6 +89,7 @@
 @media screen and (max-width: $smp) {
   .visual {
     .inner {
+      max-width: $smp;
       .intro {
         .intro-title {
           font-size: $font-medium;
@@ -105,6 +108,7 @@
 @media screen and (max-width: $ssmp) {
   .visual {
     .inner {
+      max-width: $ssmp;
       .intro {
         display: flex;
         flex-flow: column;
@@ -128,6 +132,7 @@
 @media screen and (max-width: $sssmp) {
   .visual {
     .inner {
+      max-width: sssmp;
       .intro {
         display: flex;
         flex-flow: column;
