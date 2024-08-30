@@ -1,13 +1,17 @@
 .portfolio {
-  background-color: $color-white;
+  background-color: $color-light-dark;
   padding-bottom: 50px;
   .inner {
     .title {
       display: flex;
       // justify-content: center;
+      color: $color-white;
     }
     .contents {
       .portfolio-box {
+        .teamProject {
+          color: $color-white;
+        }
         .portfolio-team {
           display: flex;
           flex-wrap: wrap;
@@ -24,6 +28,7 @@
           .portfolio-left {
             width: calc(50% - 10px);
             text-align: center;
+            color: $color-dark-white;
             a {
               display: block;
               img {
@@ -43,14 +48,35 @@
               .team-title {
                 font-size: 30px;
                 font-weight: $weight-semi-bold;
+                color: $color-white-green;
               }
               .day {
                 font-size: 20px;
               }
               .skill {
                 font-size: 22px;
-                color: $color-light-pink;
+                color: $color-light-white;
                 // font-weight: $weight-semi-bold;
+              }
+              .portfolio-btnBox {
+                display: flex;
+                gap: 1rem;
+                margin-top: 0.5rem;
+              }
+              .portfolio-github {
+                color: $color-light-dark;
+                font-weight: 800;
+                background-color: $color-light-white;
+                border: 1px solid $color-light-white;
+                padding: 0.5rem;
+                border-radius: 0.5rem;
+                transition: all 0.2s;
+                &:hover {
+                  // background-color: $color-white-green;
+                  // border: 1px solid $color-white-green;
+                  color: $color-purple;
+                  scale: 1.1;
+                }
               }
             }
             .portfolio-team-list {
@@ -58,9 +84,11 @@
                 font-weight: $weight-semi-bold;
                 font-size: 18px;
                 margin-bottom: 15px;
+                color: $color-light-white;
               }
               .info-sub {
                 font-size: 18px;
+                color: $color-light-white;
               }
             }
           }

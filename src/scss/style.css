@@ -64,7 +64,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #f25d9c;
+  background-color: #02ffa3;
   border-radius: 2px;
 }
 
@@ -126,9 +126,9 @@ h3 {
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: #ffffff;
+  background-color: #232323;
   z-index: 9999;
-  border-bottom: 1px solid #bdbdbd;
+  border-bottom: 1px solid #232323;
 }
 .header .inner {
   height: 100%;
@@ -140,7 +140,8 @@ h3 {
   align-items: center;
 }
 .header .inner .nav .logo {
-  width: 200px;
+  width: 60px;
+  border-radius: 100%;
   cursor: pointer;
 }
 .header .inner .nav .header-logo {
@@ -165,7 +166,7 @@ h3 {
   position: relative;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  color: #131313;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
   transition: color 0.5s;
@@ -177,11 +178,11 @@ h3 {
   bottom: 0;
   width: 0%;
   height: 3px;
-  background-color: #131313;
+  background-color: #02ffa3;
   transition: width 0.5s;
 }
 .header .inner .nav .gnb li:hover span {
-  color: #000;
+  color: #02ffa3;
 }
 .header .inner .nav .gnb li:hover span::after {
   width: 100%;
@@ -251,13 +252,14 @@ h3 {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
+  border: 1px solid #02ffa3;
   width: 50px;
   height: 50px;
-  background: #590d82;
+  background: #232323;
   z-index: 9997;
   cursor: pointer;
   font-size: 25px;
-  color: #ffffff;
+  color: #02ffa3;
   transition: bottom 0.5s;
 }
 
@@ -293,7 +295,7 @@ h3 {
 .visual {
   height: calc(100vh - 80px);
   min-height: 650px;
-  background: url("../../public/images/backimg.png") center/cover;
+  background: url("../../public/images/backimg1.jpg") center/cover;
 }
 .visual .inner {
   height: 100%;
@@ -306,13 +308,14 @@ h3 {
 }
 .visual .inner .intro .intro-title {
   font-size: 60px;
-  font-weight: 500;
-  color: #ffffff;
+  font-weight: 300;
+  color: #232323;
 }
 .visual .inner .intro .intro-title b {
-  color: #7912b0;
+  color: #000000;
   -webkit-text-decoration: underline #ffffff 4px;
           text-decoration: underline #ffffff 4px;
+  font-weight: 500;
 }
 .visual .inner .intro p {
   font-size: 18px;
@@ -450,11 +453,11 @@ h3 {
   }
 }
 .profile {
-  background-color: #ffffff;
+  background-color: #232323;
   height: calc(100vh - 80px);
 }
 .profile .inner .profile-title {
-  color: #f25d9c;
+  color: #ffffff;
 }
 .profile .inner .contents .profile-box {
   display: flex;
@@ -466,15 +469,13 @@ h3 {
 .profile .inner .contents .profile-box .profile-box-me {
   display: flex;
   flex-flow: column;
-  background-color: #ffffff;
+  background-color: #373737;
   width: 30%;
   height: 550px;
   padding: 50px;
   border-radius: 10px;
-  border: 1px solid #eeeeee;
-  box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
-  -webkit-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
-  -moz-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+  border: 1px solid #373737;
+  box-shadow: 0px 0px 20px -5px rgb(2, 255, 163);
   justify-content: space-around;
   align-items: center;
 }
@@ -486,6 +487,7 @@ h3 {
   display: flex;
   font-size: 25px;
   line-height: 25px;
+  color: #eeeeee;
 }
 .profile .inner .contents .profile-box .profile-box-me .nameBox p {
   margin-left: 15px;
@@ -495,6 +497,7 @@ h3 {
   display: flex;
   font-size: 25px;
   line-height: 25px;
+  color: #eeeeee;
 }
 .profile .inner .contents .profile-box .profile-box-me .birthBox p {
   margin-left: 15px;
@@ -504,6 +507,7 @@ h3 {
   display: flex;
   font-size: 25px;
   line-height: 25px;
+  color: #eeeeee;
 }
 .profile .inner .contents .profile-box .profile-box-me .mapBox p {
   margin-left: 15px;
@@ -513,6 +517,7 @@ h3 {
   display: flex;
   font-size: 25px;
   line-height: 25px;
+  color: #eeeeee;
 }
 .profile .inner .contents .profile-box .profile-box-me .emailBox p {
   margin-left: 15px;
@@ -526,19 +531,23 @@ h3 {
 .profile .inner .contents .profile-box .profile-box-intro .introTop .intro-title {
   padding: 0;
   font-size: 28px;
+  color: #eeeeee;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introTop .intro-name {
   font-size: 48px;
+  color: #ffffff;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introTop .intro-mainText {
   font-size: 28px;
+  color: #eeeeee;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introTop .intro-mainText b {
-  color: #f68cb9;
+  color: #02ffa3;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introTop .intro-subText {
   font-size: 18px;
   margin: 30px 0;
+  color: #bdbdbd;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom {
   display: flex;
@@ -552,6 +561,7 @@ h3 {
   justify-content: space-between;
   font-size: 18px;
   padding-right: 10px;
+  color: #bdbdbd;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .education div {
   font-size: 28px;
@@ -559,15 +569,17 @@ h3 {
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .education div span {
   margin-left: 15px;
+  color: #ffffff;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .education .className {
-  color: #f68cb9;
+  color: #02ffa3;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .mbti {
   width: 100%;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
+  color: #bdbdbd;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .mbti div {
   font-size: 28px;
@@ -575,9 +587,10 @@ h3 {
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .mbti div span {
   margin-left: 15px;
+  color: #ffffff;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .mbti b {
-  color: #f68cb9;
+  color: #02ffa3;
 }
 
 @media screen and (max-width: 1215px) {
@@ -636,7 +649,11 @@ h3 {
 }
 .skills .inner .contents .skills-list li .skill .skill-description {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+.skills .inner .contents .skills-list li .skill .skill-description .skill-title {
+  font-weight: 500;
 }
 .skills .inner .contents .skills-list li .skill .skill-bar {
   width: 100%;
@@ -659,11 +676,15 @@ h3 {
   }
 }
 .portfolio {
-  background-color: #ffffff;
+  background-color: #232323;
   padding-bottom: 50px;
 }
 .portfolio .inner .title {
   display: flex;
+  color: #ffffff;
+}
+.portfolio .inner .contents .portfolio-box .teamProject {
+  color: #ffffff;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team {
   display: flex;
@@ -675,6 +696,7 @@ h3 {
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-left {
   width: calc(50% - 10px);
   text-align: center;
+  color: #bdbdbd;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-left a {
   display: block;
@@ -696,21 +718,42 @@ h3 {
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .team-title {
   font-size: 30px;
   font-weight: 600;
+  color: #02ffa3;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .day {
   font-size: 20px;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .skill {
   font-size: 22px;
-  color: #f68cb9;
+  color: #eeeeee;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .portfolio-btnBox {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .portfolio-github {
+  color: #232323;
+  font-weight: 800;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .portfolio-github:hover {
+  color: #9047ff;
+  scale: 1.1;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .portfolio-team-list .info-main {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 15px;
+  color: #eeeeee;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .portfolio-team-list .info-sub {
   font-size: 18px;
+  color: #eeeeee;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-flutter {
   display: flex;
@@ -819,7 +862,7 @@ h3 {
 .vision .inner .contetents .vision-list li {
   margin-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.7);
-  border: 1px solid #7912b0;
+  border: 1px solid #bdbdbd;
   border-radius: 15px;
   padding: 20px;
   word-break: break-all;
@@ -829,7 +872,7 @@ h3 {
   padding-bottom: 10px;
 }
 .vision .inner .contetents .vision-list li span b {
-  color: #f68cb9;
+  color: #232323;
   font-size: 1.2rem;
 }
 
@@ -859,8 +902,8 @@ h3 {
   }
 }
 ::-moz-selection {
-  color: #f25d9c;
+  color: #9047ff;
 }
 ::selection {
-  color: #f25d9c;
+  color: #9047ff;
 }/*# sourceMappingURL=style.css.map */

@@ -4,11 +4,15 @@
 $color-white: #ffffff;
 $color-light-white: #eeeeee;
 $color-dark-white: #bdbdbd;
+$color-dark: #000000;
+$color-white-dark: #373737;
+$color-light-dark: #232323;
 $color-pink: #f25d9c;
 $color-light-pink: #f68cb9;
 $color-dark-pink: #ee2e7f;
-$color-purple: #590d82;
-$color-light-purple: #7912b0;
+$color-purple: #9047ff;
+$color-light-green: #098731;
+$color-white-green: #02ffa3;
 
 // Font size
 $font-large: 48px;
@@ -52,5 +56,5 @@ $ssssmp: 400px;
 @import 'life';
 
 ::selection {
-  color: $color-pink;
+  color: $color-purple;
 }

@@ -21,7 +21,11 @@
             width: 70%;
             .skill-description {
               display: flex;
-              justify-content: space-between;
+              justify-content: center;
+              margin: 0.5rem 0;
+              .skill-title {
+                font-weight: 500;
+              }
             }
             .skill-bar {
               width: 100%;

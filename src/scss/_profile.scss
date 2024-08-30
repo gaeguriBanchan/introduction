@@ -1,9 +1,9 @@
 .profile {
-  background-color: $color-white;
+  background-color: $color-light-dark;
   height: calc(100vh - 80px);
   .inner {
     .profile-title {
-      color: $color-pink;
+      color: $color-white;
     }
     .contents {
       // display: flex;
@@ -17,15 +17,15 @@
         .profile-box-me {
           display: flex;
           flex-flow: column;
-          background-color: $color-white;
+          background-color: $color-white-dark;
           width: calc(30%);
           height: 550px;
           padding: 50px;
           border-radius: 10px;
-          border: 1px solid $color-light-white;
-          box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
-          -webkit-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
-          -moz-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+          border: 1px solid $color-white-dark;
+          -webkit-box-shadow: 0px 0px 20px -5px rgba(2, 255, 163, 1);
+          -moz-box-shadow: 0px 0px 20px -5px rgba(2, 255, 163, 1);
+          box-shadow: 0px 0px 20px -5px rgba(2, 255, 163, 1);
           justify-content: space-around;
           align-items: center;
           .profile-imgBox {
@@ -39,6 +39,7 @@
             // margin-left: 20px;
             font-size: 25px;
             line-height: 25px;
+            color: $color-light-white;
             p {
               margin-left: 15px;
               font-weight: $weight-semi-bold;
@@ -49,6 +50,7 @@
             // margin-left: 20px;
             font-size: 25px;
             line-height: 25px;
+            color: $color-light-white;
             p {
               margin-left: 15px;
               font-weight: $weight-semi-bold;
@@ -59,6 +61,7 @@
             // margin-left: 20px;
             font-size: 25px;
             line-height: 25px;
+            color: $color-light-white;
             p {
               margin-left: 15px;
               font-weight: $weight-semi-bold;
@@ -69,6 +72,7 @@
             // margin-left: 20px;
             font-size: 25px;
             line-height: 25px;
+            color: $color-light-white;
             p {
               margin-left: 15px;
               font-weight: $weight-semi-bold;
@@ -85,19 +89,23 @@
             .intro-title {
               padding: 0;
               font-size: $font-medium;
+              color: $color-light-white;
             }
             .intro-name {
               font-size: $font-large;
+              color: $color-white;
             }
             .intro-mainText {
               font-size: $font-medium;
+              color: $color-light-white;
               b {
-                color: $color-light-pink;
+                color: $color-white-green;
               }
             }
             .intro-subText {
               font-size: $font-regular;
               margin: 30px 0;
+              color: $color-dark-white;
             }
           }
           .introBottom {
@@ -112,15 +120,17 @@
               justify-content: space-between;
               font-size: $font-regular;
               padding-right: 10px;
+              color: $color-dark-white;
               div {
                 font-size: $font-medium;
                 line-height: $font-medium;
                 span {
                   margin-left: 15px;
+                  color: $color-white;
                 }
               }
               .className {
-                color: $color-light-pink;
+                color: $color-white-green;
               }
             }
             .mbti {
@@ -128,15 +138,17 @@
               display: flex;
               flex-flow: column;
               justify-content: space-between;
+              color: $color-dark-white;
               div {
                 font-size: $font-medium;
                 line-height: $font-medium;
                 span {
                   margin-left: 15px;
+                  color: $color-white;
                 }
               }
               b {
-                color: $color-light-pink;
+                color: $color-white-green;
               }
             }
           }

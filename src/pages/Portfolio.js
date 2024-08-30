@@ -1,7 +1,7 @@
 import React from 'react';
 // Swiper
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation, Autoplay } from 'swiper';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Pagination, Navigation, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -16,7 +16,7 @@ const Portfolio = () => {
         </h2>
         <div className="contents">
           {/* 플러터 프로젝트 */}
-          <div className="portfolio-box">
+          {/* <div className="portfolio-box">
             <h3 className="teamProject" data-aos="fade-up">
               Flutter Project
             </h3>
@@ -182,9 +182,254 @@ const Portfolio = () => {
                 </ul>
               </div>
             </div>
-          </div>
-          {/* 팀프로젝트 */}
+          </div> */}
+          {/* 프로젝트 */}
           <div className="portfolio-box">
+            <h3 className="teamProject" data-aos="fade-up">
+              Study Project
+            </h3>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <a
+                  href="https://nextjs-movie-app-ivory.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img
+                    src={`${path}/images/nextjs-movie-app.png`}
+                    alt="project"
+                  />
+                </a>
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              </div>
+              <div className="portfolio-right">
+                <div className="right-main">
+                  <span className="team-title">MovieInfo</span>
+                  {/* <span className="day">2023.02.08 ~ 2023.03.03</span> */}
+                  <span className="skill">
+                    NextJs React TypeScript ModuleCSS
+                  </span>
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/movie-info"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    NextJs를 이용해서 상영 중인 인기영화들의 정보를 알려주는
+                    사이트를 만들었습니다.
+                  </li>
+                  <li className="info-sub">
+                    - 영화Api를 사용해서 가져온 영화의 정보를 이용했습니다.
+                    <br />- ModuleCSS를 사용해서 className의 중복을 막았습니다.
+                    <br />- 각각의 페이지 마다 로딩페이지를 구현했습니다.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <a
+                  href="https://billionaires-wiki.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img
+                    src={`${path}/images/billionaires-wiki.png`}
+                    alt="project"
+                  />
+                </a>
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              </div>
+              <div className="portfolio-right">
+                <div className="right-main">
+                  <span className="team-title">억만장자위키</span>
+                  {/* <span className="day">2023.02.08 ~ 2023.03.03</span> */}
+                  <span className="skill">
+                    NextJs React TypeScript ModuleCSS
+                  </span>
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/billionaires-wiki"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    NextJs를 이용해서 전세계의 억만장자들의 정보를 알려주는
+                    억만장자위키 사이트를 만들었습니다.
+                  </li>
+                  <li className="info-sub">
+                    - 억만장자들의 정보를 담은 Api를 이용했습니다.
+                    <br />- ModuleCSS를 사용해서 className의 중복을 막았습니다.
+                    <br />- 각각의 페이지 마다 로딩페이지를 구현했습니다.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 className="teamProject" data-aos="fade-up">
+              Publishing
+            </h3>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <a
+                  href="https://gaeguribanchan.github.io/wonderplace-clone/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img src={`${path}/images/원더플레이스.png`} alt="project" />
+                </a>
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              </div>
+              <div className="portfolio-right">
+                <div className="right-main">
+                  <span className="team-title">원더플레이스 퍼블리싱</span>
+                  {/* <span className="day">2022.12.16 ~ 2022.12.23</span> */}
+                  {/* <span className="skill">React Bootstrap</span> */}
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/wonderplace-clone"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://www.wonderplace.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      Original Site
+                    </a>
+                  </div>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    원더플레이스 사이트를 클론코딩하여 퍼블리싱 연습을
+                    하였습니다.
+                  </li>
+                  <li className="info-sub">
+                    - 스크롤 이벤트에 따른 사이트의 화면 전환을 중점으로
+                    두었습니다.
+                    <br />- 스와이프를 적용하여 사이트를 역동적으로 보이도록
+                    했습니다.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <a
+                  href="https://gaeguribanchan.github.io/hansalim/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img src={`${path}/images/hansalim.png`} alt="project" />
+                </a>
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              </div>
+              <div className="portfolio-right">
+                <div className="right-main">
+                  <span className="team-title">한살림장보기 퍼블리싱</span>
+                  {/* <span className="day">2022.12.16 ~ 2022.12.23</span> */}
+                  {/* <span className="skill">React Bootstrap</span> */}
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/hansalim"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://shop.hansalim.or.kr/shopping/spMain.do"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      Original Site
+                    </a>
+                  </div>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    한살림장보기 사이트를 클론코딩 하여 퍼블리싱 연습을
+                    하였습니다.
+                  </li>
+                  <li className="info-sub">
+                    - 슬라이드와 스와이프를 연습하기 위해 많은부분에 슬라이드와
+                    스와이프 기능을 적용하였습니다.
+                    <br />- 스와이프 기능을 넣어 사이트를 역동적으로 보일 수
+                    있도록 했습니다.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <a
+                  href="https://gaeguribanchan.github.io/stx/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img src={`${path}/images/stx건설.png`} alt="project" />
+                </a>
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              </div>
+              <div className="portfolio-right">
+                <div className="right-main">
+                  <span className="team-title">STX건설 퍼블리싱</span>
+                  {/* <span className="day">2022.12.16 ~ 2022.12.23</span> */}
+                  {/* <span className="skill">React Bootstrap</span> */}
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/stx"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="http://www.stxconst.co.kr/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      Original Site
+                    </a>
+                  </div>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    STX건설 사이트를 클론코딩 하여 퍼블리싱을 연습하였습니다.
+                  </li>
+                  <li className="info-sub">
+                    - 웹개발을 배우면서 처음 만든 퍼블리싱 입니다.
+                    <br />- 호버 기능을 중점으로 연습했습니다.
+                  </li>
+                </ul>
+              </div>
+            </div>
             <h3 className="teamProject" data-aos="fade-up">
               Team Project
             </h3>
@@ -203,8 +448,19 @@ const Portfolio = () => {
               <div className="portfolio-right">
                 <div className="right-main">
                   <span className="team-title">교보문고 미니프로젝트</span>
-                  <span className="day">2022.12.16 ~ 2022.12.23</span>
+                  {/* <span className="day">2022.12.16 ~ 2022.12.23</span> */}
                   <span className="skill">React Bootstrap</span>
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/bookstore"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                  .
                 </div>
                 <ul className="portfolio-team-list">
                   <li className="info-main">
@@ -234,8 +490,18 @@ const Portfolio = () => {
               <div className="portfolio-right">
                 <div className="right-main">
                   <span className="team-title">버거킹 미니프로젝트</span>
-                  <span className="day">2023.01.11 ~ 2023.02.06</span>
+                  {/* <span className="day">2023.01.11 ~ 2023.02.06</span> */}
                   <span className="skill">React Tailwind Axios Redux </span>
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/burgerwang/tree/master"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
                 <ul className="portfolio-team-list">
                   <li className="info-main">
@@ -267,8 +533,18 @@ const Portfolio = () => {
               <div className="portfolio-right">
                 <div className="right-main">
                   <span className="team-title">식단일지 미니프로젝트</span>
-                  <span className="day">2023.02.08 ~ 2023.03.03</span>
+                  {/* <span className="day">2023.02.08 ~ 2023.03.03</span> */}
                   <span className="skill">React Tailwind Axios Redux </span>
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/dietdiary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
                 <ul className="portfolio-team-list">
                   <li className="info-main">
@@ -285,11 +561,56 @@ const Portfolio = () => {
                 </ul>
               </div>
             </div>
+            <h3 className="teamProject" data-aos="fade-up">
+              Mini Game
+            </h3>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <a
+                  href="https://gaeguribanchan.github.io/findWally/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img src={`${path}/images/findWally.png`} alt="project" />
+                </a>
+                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+              </div>
+              <div className="portfolio-right">
+                <div className="right-main">
+                  <span className="team-title">월리를 찾아라 미니게임</span>
+                  {/* <span className="day">2023.02.08 ~ 2023.03.03</span> */}
+                  {/* <span className="skill">React Tailwind Axios Redux </span> */}
+                  <div className="portfolio-btnBox">
+                    <a
+                      href="https://github.com/gaeguriBanchan/findWally"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="portfolio-github"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+                <ul className="portfolio-team-list">
+                  <li className="info-main">
+                    자바스크립트 숙달을 위해서 숨은그림찾기 미니게임을
+                    만들었습니다.
+                  </li>
+                  <li className="info-sub">
+                    - 시작버튼을 누르면 스크린의 랜덤한 위치에 월리가
+                    나타납니다.
+                    <br />- 시간이 흘러가는동안 음악이 나오고 승리와 패배시에도
+                    이를 알리는 음악이 재생됩니다.
+                    <br />- 일정 시간내에 월리를 찾으면 승리!
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           {/* 개인 스터디 프로젝트 */}
-          <div className="portfolio-box">
+          {/* <div className="portfolio-box">
             <h3>Study Project</h3>
-            {/* Swiper 배치 */}
             <Swiper
               loop={true}
               slidesPerView={1}
@@ -473,48 +794,8 @@ const Portfolio = () => {
                   </a>
                 </div>
               </SwiperSlide>
-              {/* <SwiperSlide>
-                <a
-                  href="https://gaeguribanchan.github.io/hansalim/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="hansalim"
-                >
-                  <img src={`${path}/images/hansalim.png`} alt="portfolio" />
-                </a>
-                <h5 className="projectName">한살림장보기 클론코딩</h5>
-                <div className="port-btns">
-                  <a
-                    href="https://gaeguribanchan.github.io/hansalim/index.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="port-btn"
-                    alt="hansalim"
-                  >
-                    WORK
-                  </a>
-                  <a
-                    href="https://github.com/gaeguriBanchan/hansalim"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="port-btn"
-                    alt="hansalim"
-                  >
-                    GitHub
-                  </a>
-                  <a
-                    href="https://shop.hansalim.or.kr/shopping/spMain.do"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="port-btn"
-                    alt="hansalim"
-                  >
-                    Orign
-                  </a>
-                </div>
-              </SwiperSlide> */}
             </Swiper>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

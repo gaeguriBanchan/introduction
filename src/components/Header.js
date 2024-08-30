@@ -8,7 +8,7 @@ const Header = ({ setPage, setOpen, open }) => {
         <nav className="nav">
           <img
             className="logo"
-            src={`${path}/images/logo/Color logo with background.png`}
+            src={`${path}/images/profile (5).jpg`}
             alt="visual"
             onClick={() => setPage(0)}
           />
