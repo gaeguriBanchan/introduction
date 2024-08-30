@@ -455,6 +455,7 @@ h3 {
 .profile {
   background-color: #232323;
   height: calc(100vh - 80px);
+  min-height: 750px;
 }
 .profile .inner .profile-title {
   color: #ffffff;
@@ -553,6 +554,7 @@ h3 {
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
+  margin-top: 1rem;
 }
 .profile .inner .contents .profile-box .profile-box-intro .introBottom .education {
   width: 100%;
@@ -593,6 +595,13 @@ h3 {
   color: #02ffa3;
 }
 
+@media screen and (max-width: 770px) {
+  .introBottom {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+}
 @media screen and (max-width: 1215px) {
   .profile {
     height: 100% !important;
@@ -624,6 +633,7 @@ h3 {
 }
 .skills {
   height: 100vh;
+  min-height: 750px;
 }
 .skills .inner {
   margin-bottom: 100px;
@@ -719,6 +729,7 @@ h3 {
   font-size: 30px;
   font-weight: 600;
   color: #02ffa3;
+  text-align: center;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .day {
   font-size: 20px;

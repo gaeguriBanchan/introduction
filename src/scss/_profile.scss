@@ -1,6 +1,7 @@
 .profile {
   background-color: $color-light-dark;
   height: calc(100vh - 80px);
+  min-height: 750px;
   .inner {
     .profile-title {
       color: $color-white;
@@ -113,6 +114,7 @@
             // height: 200px;
             justify-content: space-around;
             padding-top: 10px;
+            margin-top: 1rem;
             .education {
               width: 100%;
               display: flex;
@@ -157,6 +159,19 @@
     }
   }
 }
+
+// 모바일
+@media screen and (max-width: 770px) {
+  .introBottom {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-height: 800px) {
+}
+
 // 데스크탑
 @media screen and (max-width: $desktop) {
 }

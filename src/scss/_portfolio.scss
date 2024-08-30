@@ -49,6 +49,7 @@
                 font-size: 30px;
                 font-weight: $weight-semi-bold;
                 color: $color-white-green;
+                text-align: center;
               }
               .day {
                 font-size: 20px;
@@ -210,7 +211,4 @@
     width: 100% !important;
     padding-top: 25px;
   }
-}
-// 모바일
-@media screen and (max-width: $mp) {
 }
