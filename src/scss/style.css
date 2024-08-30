@@ -737,6 +737,7 @@ h3 {
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .skill {
   font-size: 22px;
   color: #eeeeee;
+  text-align: center;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .right-main .portfolio-btnBox {
   display: flex;
