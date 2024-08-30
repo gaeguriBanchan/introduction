@@ -564,7 +564,7 @@ const Portfolio = () => {
             <h3 className="teamProject" data-aos="fade-up">
               Mini Game
             </h3>
-            <div className="portfolio-team">
+            <div className="portfolio-team-last">
               <div className="portfolio-left">
                 <a
                   href="https://gaeguribanchan.github.io/findWally/"

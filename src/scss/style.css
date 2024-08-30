@@ -695,8 +695,13 @@ h3 {
 }
 .portfolio .inner .contents .portfolio-box .teamProject {
   color: #ffffff;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  text-decoration-line: underline;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team {
+  margin-bottom: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -764,6 +769,77 @@ h3 {
   color: #eeeeee;
 }
 .portfolio .inner .contents .portfolio-box .portfolio-team .portfolio-right .portfolio-team-list .info-sub {
+  font-size: 18px;
+  color: #eeeeee;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: none;
+  padding: 50px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-left {
+  width: calc(50% - 10px);
+  text-align: center;
+  color: #bdbdbd;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-left a {
+  display: block;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-left a img {
+  width: 90%;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-flow: column;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .right-main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .right-main .team-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #02ffa3;
+  text-align: center;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .right-main .day {
+  font-size: 20px;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .right-main .skill {
+  font-size: 22px;
+  color: #eeeeee;
+  text-align: center;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .right-main .portfolio-btnBox {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .right-main .portfolio-github {
+  color: #232323;
+  font-weight: 800;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .right-main .portfolio-github:hover {
+  color: #9047ff;
+  scale: 1.1;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .portfolio-team-list .info-main {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #eeeeee;
+}
+.portfolio .inner .contents .portfolio-box .portfolio-team-last .portfolio-right .portfolio-team-list .info-sub {
   font-size: 18px;
   color: #eeeeee;
 }
@@ -864,6 +940,9 @@ h3 {
     width: 100% !important;
     padding-top: 25px;
   }
+}
+.vision .inner .contetents {
+  padding-bottom: 100px;
 }
 .vision .inner .contetents .vision-list {
   display: flex;

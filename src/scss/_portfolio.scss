@@ -11,12 +11,102 @@
       .portfolio-box {
         .teamProject {
           color: $color-white;
+          // border-top: 1px solid $color-purple;
+          // background-color: $color-purple;
+          font-size: xx-large;
+          font-weight: bold;
+          padding: 0.5rem 0;
+          text-decoration-line: underline;
         }
         .portfolio-team {
+          margin-bottom: 3rem;
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
           border-bottom: 1px solid $color-dark-white;
+          // margin-bottom: 20px;
+          padding: 50px;
+          // border: 1px solid $color-light-white;
+          // border-radius: 10px;
+          // border: 1px solid $color-light-white;
+          // box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+          // -webkit-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+          // -moz-box-shadow: 10px 10px 12px -3px rgba(242, 93, 156, 0.2);
+          .portfolio-left {
+            width: calc(50% - 10px);
+            text-align: center;
+            color: $color-dark-white;
+            a {
+              display: block;
+              img {
+                width: 90%;
+              }
+            }
+          }
+          .portfolio-right {
+            width: calc(50% - 10px);
+            display: flex;
+            flex-flow: column;
+            .right-main {
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              margin-bottom: 25px;
+              .team-title {
+                font-size: 30px;
+                font-weight: $weight-semi-bold;
+                color: $color-white-green;
+                text-align: center;
+              }
+              .day {
+                font-size: 20px;
+              }
+              .skill {
+                font-size: 22px;
+                color: $color-light-white;
+                text-align: center;
+                // font-weight: $weight-semi-bold;
+              }
+              .portfolio-btnBox {
+                display: flex;
+                gap: 1rem;
+                margin-top: 0.5rem;
+              }
+              .portfolio-github {
+                color: $color-light-dark;
+                font-weight: 800;
+                background-color: $color-light-white;
+                border: 1px solid $color-light-white;
+                padding: 0.5rem;
+                border-radius: 0.5rem;
+                transition: all 0.2s;
+                &:hover {
+                  // background-color: $color-white-green;
+                  // border: 1px solid $color-white-green;
+                  color: $color-purple;
+                  scale: 1.1;
+                }
+              }
+            }
+            .portfolio-team-list {
+              .info-main {
+                font-weight: $weight-semi-bold;
+                font-size: 18px;
+                margin-bottom: 15px;
+                color: $color-light-white;
+              }
+              .info-sub {
+                font-size: 18px;
+                color: $color-light-white;
+              }
+            }
+          }
+        }
+        .portfolio-team-last {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          border-bottom: none;
           // margin-bottom: 20px;
           padding: 50px;
           // border: 1px solid $color-light-white;
