@@ -888,9 +888,12 @@ h3 {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 888px) {
   .vision-list {
     flex-wrap: wrap;
+  }
+  .vision-list li {
+    width: 100%;
   }
 }
 .life .inner .contents .life-list {
